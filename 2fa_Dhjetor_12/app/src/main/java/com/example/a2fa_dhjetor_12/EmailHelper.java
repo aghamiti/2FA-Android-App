@@ -12,8 +12,8 @@ public class EmailHelper {
             protected Void doInBackground(Void... voids) {
                 try {
                     String host = "smtp.gmail.com";
-                    final String senderEmail = "aghamiti2004@gmail.com";
-                    final String senderPassword = "zhbb pahb wvbm vqkd";
+                    final String senderEmail = "";
+                    final String senderPassword = "";
 
                     Properties properties = new Properties();
                     properties.put("mail.smtp.host", host);
